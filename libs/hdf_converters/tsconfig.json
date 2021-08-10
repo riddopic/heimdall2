@@ -4,7 +4,9 @@
     "*.ts",
     "**/*.ts"
   ],
-  "exclude": ["lib"],
+  "exclude": [
+    "lib"
+  ],
   "compilerOptions": {
     "outDir": "./lib",
     "strict": true,
