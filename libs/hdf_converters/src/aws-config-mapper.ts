@@ -63,7 +63,7 @@ export class AwsConfigMapper {
       }
     }
     this.results = await this.getResults(configRules)
-    return this.addComplianceToConfigRules(configRules);
+    return this.addComplianceToConfigRules(configRules); //TODO Correctly append compliance values
   }
   private async getConfigRulePage(
     params: DescribeConfigRulesCommandInput
