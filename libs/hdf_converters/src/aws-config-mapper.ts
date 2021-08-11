@@ -171,14 +171,14 @@ export class AwsConfigMapper {
   }
   private async fetchAllComplianceInfo(configRules: ConfigRule[]): Promise<ComplianceByConfigRule[]> {
     const complianceResults: ComplianceByConfigRule[] = []
-    configRules.forEach(async (rule) => {
+    for (const rule of configRules) {
       let response = await this.configService.describeComplianceByConfigRule({ConfigRuleNames: [rule.ConfigRuleName || '']});
       if (response.ComplianceByConfigRules === undefined) {
         throw new Error('No compliance data was returned');
       } else {
         response.ComplianceByConfigRules?.forEach(compliance => complianceResults.push(compliance))
       }
-    })
+    }
     return complianceResults
   }
   // eslint-disable-next-line @typescript-eslint/ban-types
