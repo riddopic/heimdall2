@@ -31,7 +31,6 @@ export class AwsConfigMapper {
   configService: ConfigService;
   issues: Promise<ConfigRule[]>;
   results: ExecJSON.ControlResult[][];
-
   constructor(options: ConfigServiceClientConfig) {
     this.configService = new ConfigService(options);
     this.results = []
@@ -63,7 +62,7 @@ export class AwsConfigMapper {
       }
     }
     this.results = await this.getResults(configRules)
-    return this.addComplianceToConfigRules(configRules); //TODO Correctly append compliance values
+    return configRules;
   }
   private async getConfigRulePage(
     params: DescribeConfigRulesCommandInput
@@ -71,6 +70,7 @@ export class AwsConfigMapper {
     return this.configService.describeConfigRules(params);
   }
   private async getResults(configRules: ConfigRule[]): Promise<ExecJSON.ControlResult[][]> {
+    let complianceResults: ComplianceByConfigRule[] = await this.fetchAllComplianceInfo(configRules)
     let results = configRules.map(async (rule) => {
       let result: ExecJSON.ControlResult[] = []
       let params = {
@@ -100,7 +100,7 @@ export class AwsConfigMapper {
       });
       let currentDate: string = new Date().toISOString()
       if (result.length === 0) {
-        switch (_.get(rule, 'compliance')) {
+        switch (complianceResults.find(complianceResult => complianceResult.ConfigRuleName === rule.ConfigRuleName)?.Compliance?.ComplianceType) {
           case 'NOT_APPLICABLE':
             return [{
               run_time: 0,
@@ -169,43 +169,16 @@ export class AwsConfigMapper {
       return undefined;
     }
   }
-  private addComplianceToConfigRules(configRules: ConfigRule[]): ConfigRule[] {
-    const mappedComplianceInfo = this.fetchAllComplianceInfo(configRules);
-    return configRules.map((rule) => {
-      return _.set(
-        rule,
-        'compliance',
-        mappedComplianceInfo.get(rule.ConfigRuleName || '')
-      );
-    });
-  }
-  private fetchAllComplianceInfo(configRules: ConfigRule[]): Map<string, string> {
-    let complianceResults: Map<string, string> = new Map<string, string>();
-    let params: DescribeComplianceByConfigRuleCommandInput = {
-      ComplianceTypes: [
-        'COMPLIANT',
-        'NON_COMPLIANT',
-        'NOT_APPLICABLE',
-        'INSUFFICIENT_DATA'
-      ],
-      ConfigRuleNames: [],
-      NextToken: ''
-    };
+  private async fetchAllComplianceInfo(configRules: ConfigRule[]): Promise<ComplianceByConfigRule[]> {
+    const complianceResults: ComplianceByConfigRule[] = []
     configRules.forEach(async (rule) => {
-      const name = rule.ConfigRuleName || ''
-      params.ConfigRuleNames = [name]
-      const response = await this.configService.describeComplianceByConfigRule(
-        params
-      );
-      params.NextToken = response.NextToken
-      if (response.ComplianceByConfigRules !== undefined) {
-        response.ComplianceByConfigRules.forEach(element => {
-          if (element.ConfigRuleName && element.Compliance?.ComplianceType) {
-            complianceResults.set(element.ConfigRuleName, element.Compliance?.ComplianceType)
-          }
-        })
+      let response = await this.configService.describeComplianceByConfigRule({ConfigRuleNames: [rule.ConfigRuleName || '']});
+      if (response.ComplianceByConfigRules === undefined) {
+        throw new Error('No compliance data was returned');
+      } else {
+        response.ComplianceByConfigRules?.forEach(compliance => complianceResults.push(compliance))
       }
-    });
+    })
     return complianceResults
   }
   // eslint-disable-next-line @typescript-eslint/ban-types
