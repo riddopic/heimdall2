@@ -109,7 +109,7 @@ export class AwsConfigMapper {
               start_time: currentDate,
               status: ExecJSON.ControlResultStatus.Skipped
             }]
-          default:
+          case 'INSUFFICIENT_DATA':
             return [{
               run_time: 0,
               code_desc: INSUFFICIENT_DATA_MSG,
@@ -117,6 +117,8 @@ export class AwsConfigMapper {
               start_time: currentDate,
               status: ExecJSON.ControlResultStatus.Skipped
             }]
+          default:
+            return []
         }
       } else {
         return result
