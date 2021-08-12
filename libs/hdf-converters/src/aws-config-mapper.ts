@@ -301,10 +301,6 @@ export class AwsConfigMapper {
         }
       ]
     };
-    fs.writeFileSync(
-      '/Users/rlin/Desktop/Repositories/heimdall2/libs/hdf_converters/sample_jsons/aws-hdf.json',
-      JSON.stringify(hdf)
-    );
     return hdf;
   }
 }
