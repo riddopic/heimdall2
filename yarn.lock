@@ -621,25 +621,6 @@
     "@smithy/types" "^4.3.1"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-provider-ini@3.858.0":
-  version "3.858.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.858.0.tgz#b20a2022f2ff466b0d85bb3defd186b518c103ac"
-  integrity sha512-2ZoVJW2Gg4LjpyZPvzOV+EOJgjuaVN/+mvAxAU6JU5OJJUzqNuW1Mi7VXFdZHcF6weXoKHfzYZVR0uuVapu1lQ==
-  dependencies:
-    "@aws-sdk/core" "3.858.0"
-    "@aws-sdk/credential-provider-env" "3.858.0"
-    "@aws-sdk/credential-provider-http" "3.858.0"
-    "@aws-sdk/credential-provider-process" "3.858.0"
-    "@aws-sdk/credential-provider-sso" "3.858.0"
-    "@aws-sdk/credential-provider-web-identity" "3.858.0"
-    "@aws-sdk/nested-clients" "3.858.0"
-    "@aws-sdk/types" "3.840.0"
-    "@smithy/credential-provider-imds" "^4.0.6"
-    "@smithy/property-provider" "^4.0.4"
-    "@smithy/shared-ini-file-loader" "^4.0.4"
-    "@smithy/types" "^4.3.1"
-    tslib "^2.6.2"
-
 "@aws-sdk/credential-provider-ini@3.859.0":
   version "3.859.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.859.0.tgz#b38a554a894e734eb6fb5bf49aba39284d2f9201"
@@ -670,24 +651,6 @@
     "@aws-sdk/credential-provider-process" "3.846.0"
     "@aws-sdk/credential-provider-sso" "3.848.0"
     "@aws-sdk/credential-provider-web-identity" "3.848.0"
-    "@aws-sdk/types" "3.840.0"
-    "@smithy/credential-provider-imds" "^4.0.6"
-    "@smithy/property-provider" "^4.0.4"
-    "@smithy/shared-ini-file-loader" "^4.0.4"
-    "@smithy/types" "^4.3.1"
-    tslib "^2.6.2"
-
-"@aws-sdk/credential-provider-node@3.858.0":
-  version "3.858.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.858.0.tgz#24b4e41ca36a97e22dfab99b77f83c38a6eec4e4"
-  integrity sha512-clHADxFnMH3R3+7E1bKWEWgoHmLMep2VlmUFDYV4Hw17JR563RRQpzlF2QRCTjSNUjH48dd6AVxEDfh7461X6Q==
-  dependencies:
-    "@aws-sdk/credential-provider-env" "3.858.0"
-    "@aws-sdk/credential-provider-http" "3.858.0"
-    "@aws-sdk/credential-provider-ini" "3.858.0"
-    "@aws-sdk/credential-provider-process" "3.858.0"
-    "@aws-sdk/credential-provider-sso" "3.858.0"
-    "@aws-sdk/credential-provider-web-identity" "3.858.0"
     "@aws-sdk/types" "3.840.0"
     "@smithy/credential-provider-imds" "^4.0.6"
     "@smithy/property-provider" "^4.0.4"
@@ -745,20 +708,6 @@
     "@aws-sdk/client-sso" "3.848.0"
     "@aws-sdk/core" "3.846.0"
     "@aws-sdk/token-providers" "3.848.0"
-    "@aws-sdk/types" "3.840.0"
-    "@smithy/property-provider" "^4.0.4"
-    "@smithy/shared-ini-file-loader" "^4.0.4"
-    "@smithy/types" "^4.3.1"
-    tslib "^2.6.2"
-
-"@aws-sdk/credential-provider-sso@3.858.0":
-  version "3.858.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-sso/-/credential-provider-sso-3.858.0.tgz#49e6ece2d0f0631bb822bccc0b6e6d69349abdd7"
-  integrity sha512-YPAsEm4dUPCYO5nC/lv6fPhiihm70rh2Zdg/gmjOiD/7TIR+OT622bW+E1qBJ9s+dzOdAmutGSCmVbxp8gTM5Q==
-  dependencies:
-    "@aws-sdk/client-sso" "3.858.0"
-    "@aws-sdk/core" "3.858.0"
-    "@aws-sdk/token-providers" "3.858.0"
     "@aws-sdk/types" "3.840.0"
     "@smithy/property-provider" "^4.0.4"
     "@smithy/shared-ini-file-loader" "^4.0.4"
@@ -1057,19 +1006,6 @@
   dependencies:
     "@aws-sdk/core" "3.846.0"
     "@aws-sdk/nested-clients" "3.848.0"
-    "@aws-sdk/types" "3.840.0"
-    "@smithy/property-provider" "^4.0.4"
-    "@smithy/shared-ini-file-loader" "^4.0.4"
-    "@smithy/types" "^4.3.1"
-    tslib "^2.6.2"
-
-"@aws-sdk/token-providers@3.858.0":
-  version "3.858.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/token-providers/-/token-providers-3.858.0.tgz#6261263342a93a89300de7224ef2580dc716db89"
-  integrity sha512-uQ3cVpqbkaxq3Hd8zip0pcOFsP731g+m0zsobQ7Bmqjq4/PHcehTov8i3W9+7sBHocOM61/qrQksPlW0TPuPAA==
-  dependencies:
-    "@aws-sdk/core" "3.858.0"
-    "@aws-sdk/nested-clients" "3.858.0"
     "@aws-sdk/types" "3.840.0"
     "@smithy/property-provider" "^4.0.4"
     "@smithy/shared-ini-file-loader" "^4.0.4"
@@ -9521,9 +9457,9 @@ core-js@^2.4.0:
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
 core-js@^3.4.1:
-  version "3.44.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.44.0.tgz#db4fd4fa07933c1d6898c8b112a1119a9336e959"
-  integrity sha512-aFCtd4l6GvAXwVEh3XbbVqJGHDJt0OZRa+5ePGx3LLwi12WfexqQxcsohb2wgsa/92xtl19Hd66G/L+TaAxDMw==
+  version "3.45.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.45.0.tgz#556c2af44a2d9c73ea7b49504392474a9f7c947e"
+  integrity sha512-c2KZL9lP4DjkN3hk/an4pWn5b5ZefhRJnAc42n6LJ19kSnbeRbdQZE5dSeE2LBol1OwJD3X1BQvFTAsa8ReeDA==
 
 core-util-is@1.0.2:
   version "1.0.2"
