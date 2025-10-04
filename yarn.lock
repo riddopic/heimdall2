@@ -12817,17 +12817,17 @@ fast-uri@^3.0.1:
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.0.5.tgz#19f5f9691d0dab9b85861a7bb5d98fca961da9cd"
   integrity sha512-5JnBCWpFlMo0a3ciDy/JckMzzv1U9coZrIhedq+HXxxUfDTAiS0LA8OKVao4G9BxmCVck/jtA5r3KAtRWEyD8Q==
 
-fast-xml-parser@5.0.9:
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.0.9.tgz#5b64c810e70941a9c07b07ead8299841fbb8dd76"
-  integrity sha512-2mBwCiuW3ycKQQ6SOesSB8WeF+fIGb6I/GG5vU5/XEptwFFhp9PE8b9O7fbs2dpq9fXn4ULR3UsfydNUCntf5A==
-  dependencies:
-    strnum "^2.0.5"
-
 fast-xml-parser@5.2.5:
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.2.5.tgz#4809fdfb1310494e341098c25cb1341a01a9144a"
   integrity sha512-pfX9uG9Ki0yekDHx2SiuRIyFdyAr1kMIMitPvb0YBo8SUfKvia7w7FIyd/l6av85pFYRhZscS75MwMnbvY+hcQ==
+  dependencies:
+    strnum "^2.1.0"
+
+fast-xml-parser@5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.3.0.tgz#ae388d5a0f6ed31c8ce9e413c1ac89c8e57e7b07"
+  integrity sha512-gkWGshjYcQCF+6qtlrqBqELqNqnt4CxruY6UVAWWnqb3DQ6qaNFEIKqzYep1XzHLM/QtrHVCxyPOtTk4LTQ7Aw==
   dependencies:
     strnum "^2.1.0"
 
@@ -22133,11 +22133,6 @@ strip-outer@^1.0.0:
   integrity sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==
   dependencies:
     escape-string-regexp "^1.0.2"
-
-strnum@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/strnum/-/strnum-2.0.5.tgz#40700b1b5bf956acdc755e98e90005d7657aaaea"
-  integrity sha512-YAT3K/sgpCUxhxNMrrdhtod3jckkpYwH6JAuwmUdXZsmzH1wUyzTMrrK2wYCEEqlKwrWDd35NeuUkbBy/1iK+Q==
 
 strnum@^2.1.0:
   version "2.1.1"
