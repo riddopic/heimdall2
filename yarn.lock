@@ -545,25 +545,6 @@
     "@smithy/types" "^4.8.0"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-provider-ini@3.918.0":
-  version "3.918.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.918.0.tgz#a9acc847e709903d39413e8a963e622711a25535"
-  integrity sha512-oDViX9z4o8jShY0unX9T7MJqyt+/ojhRB2zoLQVr0Mln7GbXwJ0aUtxgb4PFROG27pJpR11oAaZHzI3LI0jm/A==
-  dependencies:
-    "@aws-sdk/core" "3.916.0"
-    "@aws-sdk/credential-provider-env" "3.916.0"
-    "@aws-sdk/credential-provider-http" "3.916.0"
-    "@aws-sdk/credential-provider-process" "3.916.0"
-    "@aws-sdk/credential-provider-sso" "3.916.0"
-    "@aws-sdk/credential-provider-web-identity" "3.918.0"
-    "@aws-sdk/nested-clients" "3.916.0"
-    "@aws-sdk/types" "3.914.0"
-    "@smithy/credential-provider-imds" "^4.2.3"
-    "@smithy/property-provider" "^4.2.3"
-    "@smithy/shared-ini-file-loader" "^4.3.3"
-    "@smithy/types" "^4.8.0"
-    tslib "^2.6.2"
-
 "@aws-sdk/credential-provider-node@3.916.0":
   version "3.916.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.916.0.tgz#a95b85ae40d10aef45c821b19f5b0f7929af46ee"
@@ -575,24 +556,6 @@
     "@aws-sdk/credential-provider-process" "3.916.0"
     "@aws-sdk/credential-provider-sso" "3.916.0"
     "@aws-sdk/credential-provider-web-identity" "3.916.0"
-    "@aws-sdk/types" "3.914.0"
-    "@smithy/credential-provider-imds" "^4.2.3"
-    "@smithy/property-provider" "^4.2.3"
-    "@smithy/shared-ini-file-loader" "^4.3.3"
-    "@smithy/types" "^4.8.0"
-    tslib "^2.6.2"
-
-"@aws-sdk/credential-provider-node@3.918.0":
-  version "3.918.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.918.0.tgz#8a7364f7779c1508da34bfce4aaadaa890905282"
-  integrity sha512-gl9ECsPB1i8UBPrAJV0HcTn+sgYuD3jYy8ps6KK4c8LznFizwgpah1jd3eF4qq3kPGzrdAE3MKua9OlCCNWAKQ==
-  dependencies:
-    "@aws-sdk/credential-provider-env" "3.916.0"
-    "@aws-sdk/credential-provider-http" "3.916.0"
-    "@aws-sdk/credential-provider-ini" "3.918.0"
-    "@aws-sdk/credential-provider-process" "3.916.0"
-    "@aws-sdk/credential-provider-sso" "3.916.0"
-    "@aws-sdk/credential-provider-web-identity" "3.918.0"
     "@aws-sdk/types" "3.914.0"
     "@smithy/credential-provider-imds" "^4.2.3"
     "@smithy/property-provider" "^4.2.3"
@@ -648,19 +611,6 @@
   version "3.916.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-web-identity/-/credential-provider-web-identity-3.916.0.tgz#8c5f6cf52cd9e091b020f46ebdaa7f52a6834ba9"
   integrity sha512-VFnL1EjHiwqi2kR19MLXjEgYBuWViCuAKLGSFGSzfFF/+kSpamVrOSFbqsTk8xwHan8PyNnQg4BNuusXwwLoIw==
-  dependencies:
-    "@aws-sdk/core" "3.916.0"
-    "@aws-sdk/nested-clients" "3.916.0"
-    "@aws-sdk/types" "3.914.0"
-    "@smithy/property-provider" "^4.2.3"
-    "@smithy/shared-ini-file-loader" "^4.3.3"
-    "@smithy/types" "^4.8.0"
-    tslib "^2.6.2"
-
-"@aws-sdk/credential-provider-web-identity@3.918.0":
-  version "3.918.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-web-identity/-/credential-provider-web-identity-3.918.0.tgz#293c7f4c5148318f04d4cd493ddb3c0cb58017cc"
-  integrity sha512-qQx5qOhSovVF1EEKTc809WsiKzMqEJrlMSOUycDkE+JMgLPIy2pB2LR1crrIeBGgxFUgFsXHvNHbFjRy+AFBdA==
   dependencies:
     "@aws-sdk/core" "3.916.0"
     "@aws-sdk/nested-clients" "3.916.0"
@@ -10912,20 +10862,20 @@ dot-prop@^5.1.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv-cli@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv-cli/-/dotenv-cli-10.0.0.tgz#b8edf89a2d24eb344d9d9b96be09de1b4b7882ac"
-  integrity sha512-lnOnttzfrzkRx2echxJHQRB6vOAMSCzzZg79IxpC00tU42wZPuZkQxNNrrwVAxaQZIIh001l4PxVlCrBxngBzA==
+dotenv-cli@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv-cli/-/dotenv-cli-11.0.0.tgz#7115b54e62ef36c3b2d2eb228f8bf4de4c2276bf"
+  integrity sha512-r5pA8idbk7GFWuHEU7trSTflWcdBpQEK+Aw17UrSHjS6CReuhrrPcyC3zcQBPQvhArRHnBo/h6eLH1fkCvNlww==
   dependencies:
     cross-spawn "^7.0.6"
     dotenv "^17.1.0"
-    dotenv-expand "^11.0.0"
+    dotenv-expand "^12.0.0"
     minimist "^1.2.6"
 
-dotenv-expand@^11.0.0, dotenv-expand@~11.0.6:
-  version "11.0.7"
-  resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-11.0.7.tgz#af695aea007d6fdc84c86cd8d0ad7beb40a0bd08"
-  integrity sha512-zIHwmZPRshsCdpMDyVsqGmgyP0yT8GAgXUnkdAoJisxvf33k7yO6OuoKmcTGuXPWSsm8Oh88nZicRLA9Y0rUeA==
+dotenv-expand@^12.0.0:
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-12.0.3.tgz#6323ceca51ca0c1b1f0055e2aba39c79781739a6"
+  integrity sha512-uc47g4b+4k/M/SeaW1y4OApx+mtLWl92l5LMPP0GNXctZqELk+YGgOPIIC5elYmUH4OuoK3JLhuRUYegeySiFA==
   dependencies:
     dotenv "^16.4.5"
 
@@ -10933,6 +10883,13 @@ dotenv-expand@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
+
+dotenv-expand@~11.0.6:
+  version "11.0.7"
+  resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-11.0.7.tgz#af695aea007d6fdc84c86cd8d0ad7beb40a0bd08"
+  integrity sha512-zIHwmZPRshsCdpMDyVsqGmgyP0yT8GAgXUnkdAoJisxvf33k7yO6OuoKmcTGuXPWSsm8Oh88nZicRLA9Y0rUeA==
+  dependencies:
+    dotenv "^16.4.5"
 
 dotenv@^10.0.0:
   version "10.0.0"
