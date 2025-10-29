@@ -545,25 +545,6 @@
     "@smithy/types" "^4.8.0"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-provider-ini@3.918.0":
-  version "3.918.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.918.0.tgz#a9acc847e709903d39413e8a963e622711a25535"
-  integrity sha512-oDViX9z4o8jShY0unX9T7MJqyt+/ojhRB2zoLQVr0Mln7GbXwJ0aUtxgb4PFROG27pJpR11oAaZHzI3LI0jm/A==
-  dependencies:
-    "@aws-sdk/core" "3.916.0"
-    "@aws-sdk/credential-provider-env" "3.916.0"
-    "@aws-sdk/credential-provider-http" "3.916.0"
-    "@aws-sdk/credential-provider-process" "3.916.0"
-    "@aws-sdk/credential-provider-sso" "3.916.0"
-    "@aws-sdk/credential-provider-web-identity" "3.918.0"
-    "@aws-sdk/nested-clients" "3.916.0"
-    "@aws-sdk/types" "3.914.0"
-    "@smithy/credential-provider-imds" "^4.2.3"
-    "@smithy/property-provider" "^4.2.3"
-    "@smithy/shared-ini-file-loader" "^4.3.3"
-    "@smithy/types" "^4.8.0"
-    tslib "^2.6.2"
-
 "@aws-sdk/credential-provider-node@3.916.0":
   version "3.916.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.916.0.tgz#a95b85ae40d10aef45c821b19f5b0f7929af46ee"
@@ -575,24 +556,6 @@
     "@aws-sdk/credential-provider-process" "3.916.0"
     "@aws-sdk/credential-provider-sso" "3.916.0"
     "@aws-sdk/credential-provider-web-identity" "3.916.0"
-    "@aws-sdk/types" "3.914.0"
-    "@smithy/credential-provider-imds" "^4.2.3"
-    "@smithy/property-provider" "^4.2.3"
-    "@smithy/shared-ini-file-loader" "^4.3.3"
-    "@smithy/types" "^4.8.0"
-    tslib "^2.6.2"
-
-"@aws-sdk/credential-provider-node@3.918.0":
-  version "3.918.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.918.0.tgz#8a7364f7779c1508da34bfce4aaadaa890905282"
-  integrity sha512-gl9ECsPB1i8UBPrAJV0HcTn+sgYuD3jYy8ps6KK4c8LznFizwgpah1jd3eF4qq3kPGzrdAE3MKua9OlCCNWAKQ==
-  dependencies:
-    "@aws-sdk/credential-provider-env" "3.916.0"
-    "@aws-sdk/credential-provider-http" "3.916.0"
-    "@aws-sdk/credential-provider-ini" "3.918.0"
-    "@aws-sdk/credential-provider-process" "3.916.0"
-    "@aws-sdk/credential-provider-sso" "3.916.0"
-    "@aws-sdk/credential-provider-web-identity" "3.918.0"
     "@aws-sdk/types" "3.914.0"
     "@smithy/credential-provider-imds" "^4.2.3"
     "@smithy/property-provider" "^4.2.3"
@@ -648,19 +611,6 @@
   version "3.916.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-web-identity/-/credential-provider-web-identity-3.916.0.tgz#8c5f6cf52cd9e091b020f46ebdaa7f52a6834ba9"
   integrity sha512-VFnL1EjHiwqi2kR19MLXjEgYBuWViCuAKLGSFGSzfFF/+kSpamVrOSFbqsTk8xwHan8PyNnQg4BNuusXwwLoIw==
-  dependencies:
-    "@aws-sdk/core" "3.916.0"
-    "@aws-sdk/nested-clients" "3.916.0"
-    "@aws-sdk/types" "3.914.0"
-    "@smithy/property-provider" "^4.2.3"
-    "@smithy/shared-ini-file-loader" "^4.3.3"
-    "@smithy/types" "^4.8.0"
-    tslib "^2.6.2"
-
-"@aws-sdk/credential-provider-web-identity@3.918.0":
-  version "3.918.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-web-identity/-/credential-provider-web-identity-3.918.0.tgz#293c7f4c5148318f04d4cd493ddb3c0cb58017cc"
-  integrity sha512-qQx5qOhSovVF1EEKTc809WsiKzMqEJrlMSOUycDkE+JMgLPIy2pB2LR1crrIeBGgxFUgFsXHvNHbFjRy+AFBdA==
   dependencies:
     "@aws-sdk/core" "3.916.0"
     "@aws-sdk/nested-clients" "3.916.0"
@@ -7906,9 +7856,9 @@ aws4@^1.8.0:
   integrity sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==
 
 axios@^1.3.5, axios@^1.4.0, axios@^1.8.3:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.13.0.tgz#ead6f495f41f9c8869dcf7b0f24f5a4ab89707f0"
-  integrity sha512-zt40Pz4zcRXra9CVV31KeyofwiNvAbJ5B6YPz9pMJ+yOSLikvPT4Yi5LjfgjRa9CawVYBaD1JQzIVcIvBejKeA==
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.13.1.tgz#45b62dc8fe04e0e92274e08b98e910ba3d7963a7"
+  integrity sha512-hU4EGxxt+j7TQijx1oYdAjw4xuIp1wRQSsbMFwSthCWeBQur1eF+qJ5iQ5sN3Tw8YRzQNKb8jszgBdMDVqwJcw==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.4"
