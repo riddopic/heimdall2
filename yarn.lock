@@ -9218,9 +9218,9 @@ chownr@^3.0.0:
   integrity sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==
 
 chroma-js@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/chroma-js/-/chroma-js-3.1.2.tgz#cfb807045182228574eae5380587cdb830e985d6"
-  integrity sha512-IJnETTalXbsLx1eKEgx19d5L6SRM7cH4vINw/99p/M11HCuXGRWL+6YmCm7FWFGIo6dtWuQoQi1dc5yQ7ESIHg==
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/chroma-js/-/chroma-js-3.1.4.tgz#76c41a29a57d8a5db69b6262d31d033b97238e8f"
+  integrity sha512-PLUFupqtew/yJt2WuwMk5RSxcJToAxocYYS/afh899yCxbPQs7YXQ954lgpTi+bPuxSX8IWSIMsmZ+Zfk+DgGQ==
 
 chrome-trace-event@^1.0.2:
   version "1.0.3"
