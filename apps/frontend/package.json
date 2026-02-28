@@ -106,7 +106,7 @@
     "vuetify": "^3.9.6",
     "vuetify-loader": "^1.6.0",
     "vuex": "^3.1.2",
-    "vuex-module-decorators": "^1.0.1",
+    "vuex-module-decorators": "^2.0.0",
     "winston": "^3.6.0"
   },
   "devDependencies": {
