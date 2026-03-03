@@ -2762,18 +2762,6 @@
   resolved "https://registry.yarnpkg.com/@inquirer/type/-/type-3.0.8.tgz#efc293ba0ed91e90e6267f1aacc1c70d20b8b4e8"
   integrity sha512-lg9Whz8onIHRthWaN1Q9EGLa/0LFJjyM8mEUbL1eTi6yMGvBf8gvyDLtxSXztQsxMvhxxNpJYrwa1YHdq+w4Jw==
 
-"@isaacs/balanced-match@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@isaacs/balanced-match/-/balanced-match-4.0.1.tgz#3081dadbc3460661b751e7591d7faea5df39dd29"
-  integrity sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ==
-
-"@isaacs/brace-expansion@^5.0.0":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@isaacs/brace-expansion/-/brace-expansion-5.0.1.tgz#0ef5a92d91f2fff2a37646ce54da9e5f599f6eff"
-  integrity sha512-WMz71T1JS624nWj2n2fnYAuPovhv7EUhk69R6i9dsVyzxt5eM3bjwvgk9L+APE1TRscGysAVMANkB0jh0LQZrQ==
-  dependencies:
-    "@isaacs/balanced-match" "^4.0.1"
-
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.npmjs.org/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"
@@ -3365,10 +3353,10 @@
   resolved "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@lerna/create@9.0.4":
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/@lerna/create/-/create-9.0.4.tgz#099aeb3ddc6455632fcc7468d47c16b01224e7e3"
-  integrity sha512-WxedGD98G8/a6HztCXNWquaM0x17oSvfvuqDsLxNNX1qXGyrzmMUmd1mQikF/47uy80X6qyWdaRtaAHlwkvEUA==
+"@lerna/create@9.0.5":
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/@lerna/create/-/create-9.0.5.tgz#8f88793ad4c404ea08a764f6139164154c8a0cfe"
+  integrity sha512-Gwd6ooSqXMdkdhiCGvHAfLRstj7W3ttr72WQB3Jf9HPP1A6mWtw0O80D0X+T/2hakqfe7lNLuKrEid4f7C0qbg==
   dependencies:
     "@npmcli/arborist" "9.1.6"
     "@npmcli/package-json" "7.0.2"
@@ -3403,7 +3391,7 @@
     load-json-file "6.2.0"
     make-dir "4.0.0"
     make-fetch-happen "15.0.2"
-    minimatch "3.0.5"
+    minimatch "3.1.4"
     multimatch "5.0.0"
     npm-package-arg "13.0.1"
     npm-packlist "10.0.3"
@@ -3424,7 +3412,7 @@
     slash "^3.0.0"
     ssri "12.0.0"
     string-width "^4.2.3"
-    tar "7.5.7"
+    tar "7.5.8"
     temp-dir "1.0.0"
     through "2.3.8"
     tinyglobby "0.2.12"
@@ -15868,11 +15856,11 @@ ldapjs@^2.2.1:
     verror "^1.8.1"
 
 lerna@^9.0.0:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/lerna/-/lerna-9.0.4.tgz#b76364caf63f941895a34ca0adc59273a1b9df8f"
-  integrity sha512-wKy9TOkkdCWPWET0R5o7mh7J0KuNNjxE0g+qTruNAt5ffWwy54wfWiJtWyDSMOrcGDt6gtisDBTKniOqK/sJvw==
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/lerna/-/lerna-9.0.5.tgz#b60a4f190c1495de00cffba021fc8d49a6398e30"
+  integrity sha512-LtwZu2wINHlKpjRCxrEdK3QopyeUpFuUS4v6uzLYdg/uxnAKqDHrGY/mDPxdxDR3YAXJzpWXBdz49AHNIKZaSg==
   dependencies:
-    "@lerna/create" "9.0.4"
+    "@lerna/create" "9.0.5"
     "@npmcli/arborist" "9.1.6"
     "@npmcli/package-json" "7.0.2"
     "@npmcli/run-script" "10.0.3"
@@ -15912,7 +15900,7 @@ lerna@^9.0.0:
     load-json-file "6.2.0"
     make-dir "4.0.0"
     make-fetch-happen "15.0.2"
-    minimatch "3.0.5"
+    minimatch "3.1.4"
     multimatch "5.0.0"
     npm-package-arg "13.0.1"
     npm-packlist "10.0.3"
@@ -15935,7 +15923,7 @@ lerna@^9.0.0:
     slash "3.0.0"
     ssri "12.0.0"
     string-width "^4.2.3"
-    tar "7.5.7"
+    tar "7.5.8"
     temp-dir "1.0.0"
     through "2.3.8"
     tinyglobby "0.2.12"
@@ -16793,10 +16781,10 @@ minimalistic-crypto-utils@^1.0.1:
   resolved "https://registry.npmjs.org/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha512-JIYlbt6g8i5jKfJ3xz7rF0LXmv2TkDxBLUkiBeZ7bAx4GnnNMr8xFpGnOxn6GhTEHx3SjRrZEoU+j04prX1ktg==
 
-minimatch@3.0.5:
-  version "3.0.5"
-  resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.0.5.tgz#4da8f1290ee0f0f8e83d60ca69f8f134068604a3"
-  integrity sha512-tUpxzX0VAzJHjLu0xUfFv1gwVp9ba3IOuRAVH2EGuRW8a5emA2FlACLqiT/lDVtS1W+TGNwqz3sWaNyLgDJWuw==
+minimatch@3.1.4, minimatch@^3.0.2, minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.4.tgz#89d910ea3970a77ac8edfd30340ccd038b758079"
+  integrity sha512-twmL+S8+7yIsE9wsqgzU3E8/LumN3M3QELrBZ20OdmQ9jB2JvW5oZtBEmft84k/Gs5CG9mqtWc6Y9vW+JEzGxw==
   dependencies:
     brace-expansion "^1.1.7"
 
@@ -16814,26 +16802,12 @@ minimatch@9.0.3:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimatch@^10.0.3, minimatch@^10.1.1:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.1.1.tgz#e6e61b9b0c1dcab116b5a7d1458e8b6ae9e73a55"
-  integrity sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==
-  dependencies:
-    "@isaacs/brace-expansion" "^5.0.0"
-
-minimatch@^10.2.0:
+minimatch@^10.0.3, minimatch@^10.1.1, minimatch@^10.2.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.2.0.tgz#e710473e66e3e1aaf376d0aa82438375cac86e9e"
   integrity sha512-ugkC31VaVg9cF0DFVoADH12k6061zNZkZON+aX8AWsR9GhPcErkcMBceb6znR8wLERM2AkkOxy2nWRLpT9Jq5w==
   dependencies:
     brace-expansion "^5.0.2"
-
-minimatch@^3.0.2, minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
-  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
-  dependencies:
-    brace-expansion "^1.1.7"
 
 minimatch@^5.0.1:
   version "5.1.6"
@@ -21531,10 +21505,10 @@ tar-stream@~2.2.0:
     inherits "^2.0.3"
     readable-stream "^3.1.1"
 
-tar@7.5.7, tar@^7.4.3, tar@^7.5.4:
-  version "7.5.7"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-7.5.7.tgz#adf99774008ba1c89819f15dbd6019c630539405"
-  integrity sha512-fov56fJiRuThVFXD6o6/Q354S7pnWMJIVlDBYijsTNx6jKSE4pvrDTs6lUnmGvNyfJwFQQwWy3owKz1ucIhveQ==
+tar@7.5.8, tar@^7.4.3, tar@^7.5.4:
+  version "7.5.8"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-7.5.8.tgz#6bbdfdb487914803d401bab6a2abb100aaa253d5"
+  integrity sha512-SYkBtK99u0yXa+IWL0JRzzcl7RxNpvX/U08Z+8DKnysfno7M+uExnTZH8K+VGgShf2qFPKtbNr9QBl8n7WBP6Q==
   dependencies:
     "@isaacs/fs-minipass" "^4.0.0"
     chownr "^3.0.0"
