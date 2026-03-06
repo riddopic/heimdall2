@@ -416,7 +416,7 @@
     "@smithy/util-utf8" "^4.2.1"
     tslib "^2.6.2"
 
-"@aws-sdk/core@^3.973.16", "@aws-sdk/core@^3.973.17":
+"@aws-sdk/core@^3.973.17":
   version "3.973.17"
   resolved "https://registry.yarnpkg.com/@aws-sdk/core/-/core-3.973.17.tgz#d46f3865398352017e78e0d794397fec8861289b"
   integrity sha512-VtgGP0TjbCeyp6DQpiBqJKbemTSIaN2bZc3UbeTDCani3lBCyxn75ouJYD6koSSp0bh7rKLEbUpiFsNCI7tr0w==
@@ -504,7 +504,7 @@
     "@smithy/types" "^4.13.0"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-provider-node@^3.972.15", "@aws-sdk/credential-provider-node@^3.972.16":
+"@aws-sdk/credential-provider-node@^3.972.16":
   version "3.972.16"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.16.tgz#58bf657b7227f62008e1bc6c73b793edaff2a1a9"
   integrity sha512-7mlt14Ee4rPFAFUVgpWE7+0CBhetJJyzVFqfIsMp7sgyOSm9Y/+qHZOWAuK5I4JNc+Y5PltvJ9kssTzRo92iXQ==
@@ -672,7 +672,7 @@
     "@smithy/types" "^4.13.0"
     tslib "^2.6.2"
 
-"@aws-sdk/middleware-user-agent@^3.972.16", "@aws-sdk/middleware-user-agent@^3.972.17":
+"@aws-sdk/middleware-user-agent@^3.972.17":
   version "3.972.17"
   resolved "https://registry.yarnpkg.com/@aws-sdk/middleware-user-agent/-/middleware-user-agent-3.972.17.tgz#5e3fc8b64b1f44a89df4cf3d677a769cb8d62c91"
   integrity sha512-HHArkgWzomuwufXwheQqkddu763PWCpoNTq1dGjqXzJT/lojX3VlOqjNSR2Xvb6/T9ISfwYcMOcbFgUp4EWxXA==
@@ -808,7 +808,7 @@
     bowser "^2.11.0"
     tslib "^2.6.2"
 
-"@aws-sdk/util-user-agent-node@^3.973.1", "@aws-sdk/util-user-agent-node@^3.973.2":
+"@aws-sdk/util-user-agent-node@^3.973.2":
   version "3.973.2"
   resolved "https://registry.yarnpkg.com/@aws-sdk/util-user-agent-node/-/util-user-agent-node-3.973.2.tgz#e6669ea0f374c1aba3dc0cd5192e28e771afe64b"
   integrity sha512-lpaIuekdkpw7VRiik0IZmd6TyvEUcuLgKZ5fKRGpCA3I4PjrD/XH15sSwW+OptxQjNU4DEzSxag70spC9SluvA==
@@ -3525,9 +3525,9 @@
     webpack-node-externals "3.0.0"
 
 "@nestjs/common@^11.1.6":
-  version "11.1.15"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.1.15.tgz#54ae753d59e990bffe5fab13dab6fb7a9196ef1a"
-  integrity sha512-51sqIj83xEhmxi3D+QA+bo+hs+YTnZ5eJvOxa34VFiSlilT8DEF83kZc4t1t3arO8PjfDFI+LaTQQkx0gm1QGA==
+  version "11.1.16"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.1.16.tgz#1f4061f66d7ae63e407f8d2be2aaeaf83097332b"
+  integrity sha512-JSIeW+USuMJkkcNbiOdcPkVCeI3TSnXstIVEPpp3HiaKnPRuSbUUKm9TY9o/XpIcPHWUOQItAtC5BiAwFdVITQ==
   dependencies:
     uid "2.0.2"
     file-type "21.3.0"
