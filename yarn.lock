@@ -642,26 +642,6 @@
     "@smithy/util-utf8" "^4.2.2"
     tslib "^2.6.2"
 
-"@aws-sdk/middleware-sdk-s3@^3.972.37":
-  version "3.972.37"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/middleware-sdk-s3/-/middleware-sdk-s3-3.972.37.tgz#82ef4953cddd3373d2942d07a5d2baf443bbf3ea"
-  integrity sha512-Km7M+i8DrLArVzrid1gfxeGhYHBd3uxvE77g0s5a52zPSVosxzQBnJ0gwWb6NIp/DOk8gsBMhi7V+cpJG0ndTA==
-  dependencies:
-    "@aws-sdk/core" "^3.974.8"
-    "@aws-sdk/types" "^3.973.8"
-    "@aws-sdk/util-arn-parser" "^3.972.3"
-    "@smithy/core" "^3.23.17"
-    "@smithy/node-config-provider" "^4.3.14"
-    "@smithy/protocol-http" "^5.3.14"
-    "@smithy/signature-v4" "^5.3.14"
-    "@smithy/smithy-client" "^4.12.13"
-    "@smithy/types" "^4.14.1"
-    "@smithy/util-config-provider" "^4.2.2"
-    "@smithy/util-middleware" "^4.2.14"
-    "@smithy/util-stream" "^4.5.25"
-    "@smithy/util-utf8" "^4.2.2"
-    tslib "^2.6.2"
-
 "@aws-sdk/middleware-ssec@^3.972.10":
   version "3.972.10"
   resolved "https://registry.yarnpkg.com/@aws-sdk/middleware-ssec/-/middleware-ssec-3.972.10.tgz#46b5c030c0116f51110e18042ad3cf863ab5c81c"
@@ -741,7 +721,7 @@
     "@smithy/types" "^4.14.1"
     tslib "^2.6.2"
 
-"@aws-sdk/signature-v4-multi-region@^3.996.24", "@aws-sdk/signature-v4-multi-region@^3.996.25":
+"@aws-sdk/signature-v4-multi-region@^3.996.25":
   version "3.996.25"
   resolved "https://registry.yarnpkg.com/@aws-sdk/signature-v4-multi-region/-/signature-v4-multi-region-3.996.25.tgz#b50651b7e4f9c82482416caa9953ad17645d4a2d"
   integrity sha512-+CMIt3e1VzlklAECmG+DtP1sV8iKq25FuA0OKpnJ4KA0kxUtd7CgClY7/RU6VzJBQwbN4EJ9Ue6plvqx1qGadw==
@@ -23482,9 +23462,9 @@ yaml@^1.10.0, yaml@^1.10.2, yaml@^1.5.0, yaml@^1.7.2:
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
 yaml@^2.1.1, yaml@^2.6.0, yaml@^2.8.2, yaml@^2.8.3:
-  version "2.8.3"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.3.tgz#a0d6bd2efb3dd03c59370223701834e60409bd7d"
-  integrity sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.4.tgz#4b5f411dd25f9544914d8673d4da7f29248e5e2e"
+  integrity sha512-ml/JPOj9fOQK8RNnWojA67GbZ0ApXAUlN2UQclwv2eVgTgn7O9gg9o7paZWKMp4g0H3nTLtS9LVzhkpOFIKzog==
 
 yargs-parser@21.1.1, yargs-parser@^21.1.1:
   version "21.1.1"
