@@ -642,26 +642,6 @@
     "@smithy/util-utf8" "^4.2.2"
     tslib "^2.6.2"
 
-"@aws-sdk/middleware-sdk-s3@^3.972.37":
-  version "3.972.37"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/middleware-sdk-s3/-/middleware-sdk-s3-3.972.37.tgz#82ef4953cddd3373d2942d07a5d2baf443bbf3ea"
-  integrity sha512-Km7M+i8DrLArVzrid1gfxeGhYHBd3uxvE77g0s5a52zPSVosxzQBnJ0gwWb6NIp/DOk8gsBMhi7V+cpJG0ndTA==
-  dependencies:
-    "@aws-sdk/core" "^3.974.8"
-    "@aws-sdk/types" "^3.973.8"
-    "@aws-sdk/util-arn-parser" "^3.972.3"
-    "@smithy/core" "^3.23.17"
-    "@smithy/node-config-provider" "^4.3.14"
-    "@smithy/protocol-http" "^5.3.14"
-    "@smithy/signature-v4" "^5.3.14"
-    "@smithy/smithy-client" "^4.12.13"
-    "@smithy/types" "^4.14.1"
-    "@smithy/util-config-provider" "^4.2.2"
-    "@smithy/util-middleware" "^4.2.14"
-    "@smithy/util-stream" "^4.5.25"
-    "@smithy/util-utf8" "^4.2.2"
-    tslib "^2.6.2"
-
 "@aws-sdk/middleware-ssec@^3.972.10":
   version "3.972.10"
   resolved "https://registry.yarnpkg.com/@aws-sdk/middleware-ssec/-/middleware-ssec-3.972.10.tgz#46b5c030c0116f51110e18042ad3cf863ab5c81c"
@@ -741,7 +721,7 @@
     "@smithy/types" "^4.14.1"
     tslib "^2.6.2"
 
-"@aws-sdk/signature-v4-multi-region@^3.996.24", "@aws-sdk/signature-v4-multi-region@^3.996.25":
+"@aws-sdk/signature-v4-multi-region@^3.996.25":
   version "3.996.25"
   resolved "https://registry.yarnpkg.com/@aws-sdk/signature-v4-multi-region/-/signature-v4-multi-region-3.996.25.tgz#b50651b7e4f9c82482416caa9953ad17645d4a2d"
   integrity sha512-+CMIt3e1VzlklAECmG+DtP1sV8iKq25FuA0OKpnJ4KA0kxUtd7CgClY7/RU6VzJBQwbN4EJ9Ue6plvqx1qGadw==
@@ -16303,9 +16283,9 @@ lowercase-keys@^1.0.0:
   integrity sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==
 
 lru-cache@*, lru-cache@^11.0.0, lru-cache@^11.0.2, lru-cache@^11.1.0, lru-cache@^11.2.1:
-  version "11.3.3"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.3.3.tgz#d6c633c2a9657760fd30594d8d98da65330d9d78"
-  integrity sha512-JvNw9Y81y33E+BEYPr0U7omo+U9AySnsMsEiXgwT6yqd31VQWTLNQqmT4ou5eqPFUrTfIDFta2wKhB1hyohtAQ==
+  version "11.3.6"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.3.6.tgz#f0306ad6e9f0a5dc25b16aeba4e8f57b7ec2df55"
+  integrity sha512-Gf/KoL3C/MlI7Bt0PGI9I+TeTC/I6r/csU58N4BSNc4lppLBeKsOdFYkK+dX0ABDUMJNfCHTyPpzwwO21Awd3A==
 
 "lru-cache@7.10.1 - 7.13.1":
   version "7.13.1"
