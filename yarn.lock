@@ -316,15 +316,15 @@
     tslib "^2.6.2"
 
 "@aws-sdk/client-sts@^3.427.0":
-  version "3.1065.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-sts/-/client-sts-3.1065.0.tgz#bbe6b1be1564672151f9fa40e68cdb7204e35c91"
-  integrity sha512-q/L9Bink54/vWazkjz30rFzT/xQaOxR//au9dZGOBMqdIsukf4M+PDvja0XX+pqZ5rrCRP6h0Ucc1g0WfFjyEA==
+  version "3.1067.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-sts/-/client-sts-3.1067.0.tgz#be1bbad031d0f10becc2a013cdf247754ebe1a6c"
+  integrity sha512-9ylTBXa54xgj+eBE4ZlCpqTwya2Nwx5kvcHN77iErLHRRIQEobHt4R2Vo6hqeXOOXEHWP5uOT1wXqyANAIa+Dw==
   dependencies:
     "@aws-crypto/sha256-browser" "5.2.0"
     "@aws-crypto/sha256-js" "5.2.0"
     "@aws-sdk/core" "^3.974.20"
-    "@aws-sdk/credential-provider-node" "^3.972.54"
-    "@aws-sdk/signature-v4-multi-region" "^3.996.33"
+    "@aws-sdk/credential-provider-node" "^3.972.55"
+    "@aws-sdk/signature-v4-multi-region" "^3.996.34"
     "@aws-sdk/types" "^3.973.12"
     "@smithy/core" "^3.24.6"
     "@smithy/fetch-http-handler" "^5.4.6"
@@ -401,7 +401,7 @@
     "@smithy/types" "^4.14.3"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-provider-node@^3.972.52", "@aws-sdk/credential-provider-node@^3.972.54", "@aws-sdk/credential-provider-node@^3.972.55":
+"@aws-sdk/credential-provider-node@^3.972.52", "@aws-sdk/credential-provider-node@^3.972.55":
   version "3.972.55"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.55.tgz#117eaec668dde8e3366bdb750d4c5c247a59a31f"
   integrity sha512-zMGLa/dhESVqmCD7mmIFFKSwSFrJGScvCXcjvBZEVOOMauFS5JRQvLTMukFpMEFWiV6dTAlsen2ATDBulLPtbg==
@@ -490,7 +490,7 @@
     "@smithy/types" "^4.14.3"
     tslib "^2.6.2"
 
-"@aws-sdk/signature-v4-multi-region@^3.996.33", "@aws-sdk/signature-v4-multi-region@^3.996.34":
+"@aws-sdk/signature-v4-multi-region@^3.996.34":
   version "3.996.34"
   resolved "https://registry.yarnpkg.com/@aws-sdk/signature-v4-multi-region/-/signature-v4-multi-region-3.996.34.tgz#99749163def9dfc720eef85f7fe2d14bb4b763fb"
   integrity sha512-mx1L5qlumSOt/nKM3BFaHE2HVkWwz0i4Bw0pyYO42FfX/FeLlo8YI6csC0gSPprEk6fTIqI+CZN9RwUwKd5krQ==
