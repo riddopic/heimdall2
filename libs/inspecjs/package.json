@@ -13,7 +13,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^26.0.0",
     "jest": "^30.0.2",
-    "quicktype": "^24.0.0",
+    "quicktype": "^26.0.0",
     "ts-jest": "^29.1.0",
     "typedoc": "^0.28.5"
   },
