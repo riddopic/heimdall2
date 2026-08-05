@@ -6564,9 +6564,9 @@ anynum@^1.0.1:
   integrity sha512-N6//FLET/tXYNM/F6ABca1oH6fWB+KlTt909Le28WMDBk8oaT4vY17DCrwg2MvmuqUKt3Ni4N5dGJ/EoBgcO6A==
 
 apexcharts@^6.0.0:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-6.5.0.tgz#9ffeece51951ca7e80d684a99bbcecb96b024bba"
-  integrity sha512-yo04DuSIKA8cwCHEEcoI+MwBaPouTa5YnEmbT6R0cTN+v7OKdYxJl5BBVpzyPeNLD004rYyaT0EWeznDo1vztg==
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-6.6.1.tgz#a08d093c469bb17494110ea6473f5328fd2f773b"
+  integrity sha512-958NXryBp9mtyqGQK1c8J2wzTHivc7L/lS/nsHOw13L52V2mGxbmjCfVu8oPHIbBCeBe26dYR2ZU1GjIqJkxIA==
 
 apollo-datasource@^3.3.2:
   version "3.3.2"
