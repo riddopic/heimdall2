@@ -20877,9 +20877,9 @@ tslib@^1.9.0:
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tsx@^4.7.1:
-  version "4.23.5"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.23.5.tgz#fbf78241ff3e616c5dc96e6113200b0e6899e7dc"
-  integrity sha512-rw55FUaqOoI7RvlQwLbhO4nSDApnQ4/CykPuiQ/EPvtrX3WA9Ig55jIt9VvbBJbzJuj12ueRu4PMZ2SxPVbihg==
+  version "4.23.11"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.23.11.tgz#82a7cbcce167b575060db03ef789a84c687c7f97"
+  integrity sha512-Ry2oTEUnhBdeEdWIztY8kf3/nBGnPnjMLVGL0YfdRXMORuPER5NlKmayqxtxRxwB1xBN+RivRaJfe7PM1rtiyw==
   dependencies:
     esbuild "~0.28.0"
   optionalDependencies:
