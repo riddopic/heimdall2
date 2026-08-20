@@ -6509,10 +6509,17 @@ anynum@^1.0.1:
   resolved "https://registry.yarnpkg.com/anynum/-/anynum-1.0.1.tgz#2aac00e08dfad3726c1d462e60dbc2f831659a44"
   integrity sha512-N6//FLET/tXYNM/F6ABca1oH6fWB+KlTt909Le28WMDBk8oaT4vY17DCrwg2MvmuqUKt3Ni4N5dGJ/EoBgcO6A==
 
+apex-commons@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/apex-commons/-/apex-commons-0.5.0.tgz#de0a38b1c9d15fa13eac26097305a219020bc525"
+  integrity sha512-xz83SgPREE1wGtoflvxjwJtcjzl5bKTz2/bDxWCZNL6QVjUNE47kMg/1Zqt0bSh6eOnmFCWlTDc3RU8o85N+wg==
+
 apexcharts@^6.0.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-6.8.0.tgz#1e92c45cb76768ea666f95f358db1455e71e2226"
-  integrity sha512-ifEl3w/NAMsKQ60JNDD8nRCGdnGeuuKNvUzZTQpPr/3JNewoZv98H42VpXFB96sHle/8GDsHn/NQp785xsNh4A==
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-6.9.0.tgz#76091a63c0912f0de665628f758909049cdaf74e"
+  integrity sha512-fmCD8aW39UKYynv1XZQ29ESG4/jqmHQ7upcoTFgduh/Fb/XFQJ7s69IxkroDsuya7kB67SJeFtHOxim2N9MQkg==
+  dependencies:
+    apex-commons "^0.5.0"
 
 apollo-datasource@^3.3.2:
   version "3.3.2"
