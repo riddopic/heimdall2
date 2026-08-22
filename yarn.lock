@@ -246,7 +246,7 @@
     "@smithy/types" "^4.16.1"
     tslib "^2.6.2"
 
-"@aws-sdk/core@^3.977.6", "@aws-sdk/core@^3.977.8":
+"@aws-sdk/core@^3.977.8":
   version "3.977.8"
   resolved "https://registry.yarnpkg.com/@aws-sdk/core/-/core-3.977.8.tgz#b2860d6d6bd4b147dbf906c5e3c8155337742657"
   integrity sha512-7+Kcrkvrk9lM/m7jRhHpT4jCdvzGHsuaSRbF8TdzzkY1mRzp/Ogwf9c7H29k4gGhey0BBWhCWr16+t0J61gwmg==
@@ -315,7 +315,7 @@
     "@smithy/types" "^4.16.1"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-provider-node@^3.972.78", "@aws-sdk/credential-provider-node@^3.972.80":
+"@aws-sdk/credential-provider-node@^3.972.80":
   version "3.972.80"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.80.tgz#1a3db0a35091468c5cd32d869f031fc6a2420d8e"
   integrity sha512-bE2qh8ww4iClO1jHsBXdOE8FUgzDbdxbyorNjSCoPSkQd51k3jODItuPZfuwcLHZqDXsH+bI4AMHhqtuyR7mSg==
@@ -416,7 +416,7 @@
     "@smithy/types" "^4.16.1"
     tslib "^2.6.2"
 
-"@aws-sdk/types@^3.974.2", "@aws-sdk/types@^3.974.4":
+"@aws-sdk/types@^3.974.4":
   version "3.974.4"
   resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.974.4.tgz#c68582caa8568de90d106e4717f1559164b6949a"
   integrity sha512-dSFDNG00MEz0/xl5gxL62giLd1iYyJsTxZ1I1DOj6lC+bbgLB4TRsYClJg3b62dhXT1uATzsTNXPnC+33EJV3A==
@@ -21827,9 +21827,9 @@ vuetify-loader@^1.6.0:
     loader-utils "^2.0.0"
 
 vuetify@^4.0.1:
-  version "4.1.9"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-4.1.9.tgz#cfd823025a4ff9abf937d1f9556804cac3c32db4"
-  integrity sha512-2NlpUiSwkUAGxKmkKwoRCst3IJF6EPP7msNJd+VxFjcAN9xCG+RFODzsfXfO2ypl9aSj3T/PJ65BBjQeTGgFKA==
+  version "4.1.10"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-4.1.10.tgz#bf2ba0725dbd27065914066bd8c499e3c4625688"
+  integrity sha512-7IDuicacXiE0yIZoFbYpIYLrQbOV45duwhsc/yqv2l2slatm4NHtuiB89/EpuxGEF8WHRVyLOEpOzP91RsxuxA==
 
 vuex-module-decorators@^1.0.1:
   version "1.2.0"
