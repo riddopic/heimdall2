@@ -246,7 +246,7 @@
     "@smithy/types" "^4.16.1"
     tslib "^2.6.2"
 
-"@aws-sdk/core@^3.977.6", "@aws-sdk/core@^3.977.8":
+"@aws-sdk/core@^3.977.8":
   version "3.977.8"
   resolved "https://registry.yarnpkg.com/@aws-sdk/core/-/core-3.977.8.tgz#b2860d6d6bd4b147dbf906c5e3c8155337742657"
   integrity sha512-7+Kcrkvrk9lM/m7jRhHpT4jCdvzGHsuaSRbF8TdzzkY1mRzp/Ogwf9c7H29k4gGhey0BBWhCWr16+t0J61gwmg==
@@ -315,7 +315,7 @@
     "@smithy/types" "^4.16.1"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-provider-node@^3.972.78", "@aws-sdk/credential-provider-node@^3.972.80":
+"@aws-sdk/credential-provider-node@^3.972.80":
   version "3.972.80"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.80.tgz#1a3db0a35091468c5cd32d869f031fc6a2420d8e"
   integrity sha512-bE2qh8ww4iClO1jHsBXdOE8FUgzDbdxbyorNjSCoPSkQd51k3jODItuPZfuwcLHZqDXsH+bI4AMHhqtuyR7mSg==
@@ -416,7 +416,7 @@
     "@smithy/types" "^4.16.1"
     tslib "^2.6.2"
 
-"@aws-sdk/types@^3.974.2", "@aws-sdk/types@^3.974.4":
+"@aws-sdk/types@^3.974.4":
   version "3.974.4"
   resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.974.4.tgz#c68582caa8568de90d106e4717f1559164b6949a"
   integrity sha512-dSFDNG00MEz0/xl5gxL62giLd1iYyJsTxZ1I1DOj6lC+bbgLB4TRsYClJg3b62dhXT1uATzsTNXPnC+33EJV3A==
@@ -7999,6 +7999,14 @@ chroma-js@^3.1.2:
   resolved "https://registry.yarnpkg.com/chroma-js/-/chroma-js-3.2.0.tgz#4e9e665290b9bbfece524fccf759d5120e351ff2"
   integrity sha512-os/OippSlX1RlWWr+QDPcGUZs0uoqr32urfxESG9U93lhUfbnlyckte84Q8P1UQY/qth983AS1JONKmLS4T0nw==
 
+chrome-remote-interface@0.33.3:
+  version "0.33.3"
+  resolved "https://registry.yarnpkg.com/chrome-remote-interface/-/chrome-remote-interface-0.33.3.tgz#d8b4339f487b460a9461af7355bda98054e8e1a4"
+  integrity sha512-zNnn0prUL86Teru6UCAZ1yU1XeXljHl3gj7OrfPcarEfU62OUU4IujDPdTDW3dAWwRqN3ZMG/Chhkh2gPL/wiw==
+  dependencies:
+    commander "2.11.x"
+    ws "^7.2.0"
+
 chrome-trace-event@^1.0.2:
   version "1.0.3"
   resolved "https://registry.npmjs.org/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
@@ -8361,6 +8369,11 @@ command-line-usage@^7.0.1:
     chalk-template "^0.4.0"
     table-layout "^4.1.1"
     typical "^7.3.0"
+
+commander@2.11.x:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
+  integrity sha512-b0553uYA5YAEGgyYIGYROzKQ7X5RAqedkfjiZxwi0kL1g3bOaBNNZfYkzt/CL0umgD5wc9Jec2FbB98CjkMRvQ==
 
 commander@4.1.1, commander@^4.0.0:
   version "4.1.1"
@@ -9067,10 +9080,10 @@ cypress-wait-until@^3.0.2:
   resolved "https://registry.yarnpkg.com/cypress-wait-until/-/cypress-wait-until-3.0.2.tgz#c90dddfa4c46a2c422f5b91d486531c560bae46e"
   integrity sha512-iemies796dD5CgjG5kV0MnpEmKSH+s7O83ZoJLVzuVbZmm4lheMsZqAVT73hlMx4QlkwhxbyUzhOBUOZwoOe0w==
 
-cypress@15.20.1:
-  version "15.20.1"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-15.20.1.tgz#60b61b4682523400b55b46ecbe703dd66f26dfab"
-  integrity sha512-7GV3O7vQQG+EVVv9BGs6lCHY49x25jVi/z1+zdjuuq/o3eZeDwmGPJpRYnOWeGvQxTCtkydXWHBPhV8xuGXPLg==
+cypress@15.21.0:
+  version "15.21.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-15.21.0.tgz#61017bb85ae2886fefcd2b9b4c21b47cb62a1b6b"
+  integrity sha512-6uPy5GUjao97t/QDIwlPyJz4JUqPpFIPq5lNazN95LSA3ynJoYC1sHZ3W+aj4f+K1OFGbMfno0+OX2Gx0OmlPA==
   dependencies:
     "@cypress/request" "^4.0.0"
     "@cypress/xvfb" "^1.2.4"
@@ -9083,6 +9096,7 @@ cypress@15.20.1:
     buffer "^5.7.1"
     cachedir "^2.4.0"
     chalk "^4.1.0"
+    chrome-remote-interface "0.33.3"
     ci-info "^4.1.0"
     cli-table3 "0.6.1"
     commander "^6.2.1"
@@ -22360,6 +22374,11 @@ write-file-atomic@^6.0.0:
   version "7.5.11"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.11.tgz#9460daf1812bb81a423c5b9eac746941a86310fa"
   integrity sha512-zS54Oen9bITtp7kp2XM3AydrCIq1D+HwJOuH+c+e4LfpL/lotP5osijd+UoMnxwAam1GN8R4KtLAyIrIcBNpiA==
+
+ws@^7.2.0:
+  version "7.5.13"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.13.tgz#12aa507eaca76c295c278b1aebf4698ab2c1845f"
+  integrity sha512-rsKI6xDBFVf4r/x8XyChGK04QR/XHroxs/jUcoWvtEZM8TPU/X/uIY9B1CsSzYws9ZJb/6bbBu7dPhFW00CAoA==
 
 ws@^8.13.0:
   version "8.21.0"
