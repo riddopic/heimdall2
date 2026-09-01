@@ -109,7 +109,7 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "@nestjs/testing": "^11.0.1",
+    "@nestjs/testing": "^12.0.1",
     "@types/jest": "^30.0.0",
     "@types/mock-fs": "^4.10.0",
     "jest": "^30.0.2",
