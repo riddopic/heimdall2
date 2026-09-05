@@ -238,9 +238,9 @@
     tslib "^2.6.2"
 
 "@aws-sdk/client-s3@^3.425.0":
-  version "3.1123.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-s3/-/client-s3-3.1123.0.tgz#19e402239a7628de18b7b8f347d8ee61dfdce330"
-  integrity sha512-InD/KXgF4clIFtqo8yzQQG755/BBoLstsC5WITLrMckKUUaACQgbpbZcdsySAXU3Uukp/3RV0Aiv5H3eDNGXcw==
+  version "3.1124.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-s3/-/client-s3-3.1124.0.tgz#d502425a2b259ae4511b88794aaf4c03a077f676"
+  integrity sha512-f20BksgVlXufcf/mijde1LAjwM/iSDdG3mGtN3yRFOUzXtlFEOjxNi1Rf2Kb+rSgoiOSpO0hUOna9Bs+J1gX2A==
   dependencies:
     "@aws-sdk/checksums" "^3.1000.29"
     "@aws-sdk/core" "^3.977.9"
@@ -338,7 +338,7 @@
     "@smithy/types" "^4.17.2"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-provider-node@^3.972.81", "@aws-sdk/credential-provider-node@^3.972.82":
+"@aws-sdk/credential-provider-node@^3.972.82":
   version "3.972.82"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.82.tgz#9967ea14f708f9e3274ed334a07a550282556a32"
   integrity sha512-znDkEOGXB8W3kG1LJUKP3foBZY/9qLM0eil/DxWXSp37XsdsRLQHE/d/OaCGGVgKpA6znR38h/+INk8do1FjiA==
