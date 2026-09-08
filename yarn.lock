@@ -6155,6 +6155,11 @@
   resolved "https://registry.npmjs.org/@vue/web-component-wrapper/-/web-component-wrapper-1.3.0.tgz#b6b40a7625429d2bd7c2281ddba601ed05dc7f1a"
   integrity sha512-Iu8Tbg3f+emIIMmI2ycSI8QcEuAUgPTgHwesDU1eKMLE4YC/c/sFbGc70QgMq31ijRftV0R7vCm9co6rldCeOA==
 
+"@vuetify/v0@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@vuetify/v0/-/v0-1.2.1.tgz#26232ebca8e915393211c2cdbdac923f2c9c4f37"
+  integrity sha512-lFBUeMmQiKbFR7JXC1Z74Z2dvvGLCqt/Wd9JQqg4falICTvHtlkulYqaHbtmByGV9eR7cbG1ohN1+7OQLLSPfg==
+
 "@webassemblyjs/ast@1.14.1", "@webassemblyjs/ast@^1.14.1":
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.14.1.tgz#a9f6a07f2b03c95c8d38c4536a1fdfb521ff55b6"
@@ -21986,9 +21991,11 @@ vuetify-loader@^1.6.0:
     loader-utils "^2.0.0"
 
 vuetify@^4.0.1:
-  version "4.1.12"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-4.1.12.tgz#160132836a272ccf9fb7d424bdf6a8d0c02c2e42"
-  integrity sha512-WXGbnuzqUGPZM7nF38C3jiucaLRutHZOICVW0wg1dyXppW11i+su/IT20nK+1o86nsgTdedejeEv53cJUrI30A==
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-4.2.0.tgz#001953236cec9376695fc9db8f06860ca0f769ff"
+  integrity sha512-KaMbAl57GG/zdLdL9dcMqEZligIK3jYvkPkpx+RS9DufD/TOfWKnlDTOUzoYlvmhT/3LfJ/usAt1bSoWfYX4JA==
+  dependencies:
+    "@vuetify/v0" "^1.2.1"
 
 vuex-module-decorators@^1.0.1:
   version "1.2.0"
