@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 
-gem "inspec-bin", '~> 7.1.7'
+gem "inspec-bin", '~> 7.2.1'
