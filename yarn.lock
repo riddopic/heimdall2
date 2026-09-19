@@ -3341,13 +3341,13 @@
   integrity sha512-FM9ioo2Dyj+cC7aeO4g19ijAXoRaHlW/GQZFbgXsM4Z9pyQedA8yOseb7ivfqlPwUKJlH9PFgeWniu6c0vb6dw==
 
 "@nestjs/platform-express@^12.0.1":
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-12.0.2.tgz#e4dbaadb732f3bb3510446fba5ca3ec0c6e2b30b"
-  integrity sha512-9/Ga6wo6+3W2akXdbxi3nu3WG3ABAFZtvVwyYbUTqKWWSUYTuaS9gCkhIdEQsVgCTQ8cNAodfAYLFOrOAm3DNg==
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-12.0.3.tgz#9af25a6f9c7359fc2e9b76e15c85d97578cbd495"
+  integrity sha512-q9ImjCMjbYYgqvRHHro6sAypNwhjspIAHad0RTL2ww5wYd9gwUGWMss7Q+ACCw5Sksu7Q8S/3rjSLhB+W6B6bg==
   dependencies:
     cors "2.8.6"
     express "5.2.1"
-    multer "2.3.0"
+    multer "2.4.0"
     path-to-regexp "8.4.2"
     tslib "2.8.1"
 
@@ -16239,14 +16239,13 @@ muggle-string@^0.4.1:
   resolved "https://registry.yarnpkg.com/muggle-string/-/muggle-string-0.4.1.tgz#3b366bd43b32f809dc20659534dd30e7c8a0d328"
   integrity sha512-VNTrAak/KhO2i8dqqnqnAHOa3cYBwXEZe9h+D5h/1ZqFSTEFHdM65lR7RoIqq3tBBYavsOXV84NoHXZ0AkPyqQ==
 
-multer@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/multer/-/multer-2.3.0.tgz#46f5a98c34e09661ff089fa49ae487846bd5b4fd"
-  integrity sha512-cjNbm3sttszgZeGfJR124D+jFEfkXCVAsoPBmFn9X7UxmDSFHWqE2CoEj0vrmSpuAFnqWR1Szcm9QTsiHr60Xw==
+multer@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/multer/-/multer-2.4.0.tgz#969ab025c207829967c923172c51a75cbf171be1"
+  integrity sha512-7dqa0ZcFfzbefdTuIkzOSMvZWC0J7FLqBOjJUZvDCXShIURWKxAyTT1wHhnE5q19c7jOJf43IYYKjBmZVZmvhg==
   dependencies:
     append-field "^1.0.0"
     busboy "^1.6.0"
-    concat-stream "^2.0.0"
     type-is "^1.6.18"
 
 multicast-dns@^7.2.5:
