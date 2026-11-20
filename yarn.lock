@@ -3319,9 +3319,9 @@
   integrity sha512-GJNuSMrh4QjouB3nlztNOreWvu1IigJzY3hOiVtiNfFE4XOlznsUXQk7WAq0XnsOUvHusjYF3//9of0gEzm/+Q==
 
 "@nestjs/platform-express@^12.0.1":
-  version "12.4.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-12.4.2.tgz#c5ded3f44216782ef6e88fa390af6f2243b2006d"
-  integrity sha512-YWPJ0lIN0QJLsX658dCm0elvTtc76XvjX8VgahYbPDw6OGB2hgkdd7nLC6CI7q+tdhSNlXoF0rithWyGNRd7hQ==
+  version "12.5.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-12.5.1.tgz#68ac02195d490806a5e9352b1774f96e2eb34d2a"
+  integrity sha512-pl/ZPErFFsWRaqcKlbQQyME5Zup9GmdBYDy4Vqh0NHoe2LEz0au78OMDNFytuHx2VDvxn6oBiFYigKXrS9embg==
   dependencies:
     cors "2.8.6"
     express "5.3.0"
