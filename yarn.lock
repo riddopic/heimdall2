@@ -3295,9 +3295,9 @@
     tslib "2.9.1"
 
 "@nestjs/core@^12.0.1":
-  version "12.4.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-12.4.2.tgz#5aff976a35f391c0c2314122596b12bcb11cf8bf"
-  integrity sha512-x0Xt+4Koah/CY97P89GxudJomylIMhlU5hmiyJOvBuayU9zIzQiYoOFzTs6/WdKM9ppAnWjfTnOYqQVIQ3t1mA==
+  version "12.5.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-12.5.1.tgz#34b79765c20806a355218efd88fa6068cfef8087"
+  integrity sha512-jka7pfgn8Q1kWxT+tbNXzAJNx+DIVid/cldQiUZC2OpE49JNSvjI1EuwFN4ZM+5+/VLdRqOJubJuGR1OES43pw==
   dependencies:
     uid "2.0.2"
     fast-safe-stringify "2.1.1"
